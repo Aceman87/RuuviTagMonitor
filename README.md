@@ -1,6 +1,9 @@
 # RuuviTagMonitor
 NodeJS RuuviTag monitor
 
+Runs on NodeJS 8.16.0 on a RaspberryPi. Collects metrics from multible RuuviTag sensors and sends the data to a InfluxDB database.
+The NodeJS code is daemonized with PM2.
+
 ## Install notes
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
