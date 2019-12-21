@@ -21,7 +21,7 @@ npm install influxdb
 ```
 
 ## Allows to run without sudo
-sudo setcap cap_net_raw+eip $(eval readlink -f `which node`)
+```sudo setcap cap_net_raw+eip $(eval readlink -f `which node`)```
 
 ## InfluxDB schema on the cloud server side
 ```
